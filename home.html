@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpiceFluidion - Premium Spice Auctions</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="css/home.css" rel="stylesheet">   
+</head>
+<body>
+    <header>
+        <div class="logo"><i>SpiceBid</i></div>
+        <nav>
+            <ul>
+                <li><a href="#" class="active"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="login.php"><i class="fas fa-store"></i> Seller</a></li>
+                <li><a href="coustomer.php"><i class="fas fa-users"></i> Customer</a></li>
+                <!-- <li><a href="admin.php"><i class="fas fa-crown"></i> Admin</a></li> -->
+                <li><a href="logout.php"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <!-- <div class="breadcrumb">
+            <a href="#">Home</a> &gt; <span>SPICES</span>
+        </div> -->
+
+ <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Discover the World's Finest Spices</h1>
+            <p>Experience premium quality spices sourced from exotic locations and bid in our exclusive auctions to bring authentic flavors to your kitchen.</p>
+            <!-- <button class="cta-button">Join Auction Now</button> -->
+        </div>
+    </section>
+            <main class="products-grid">
+                <div class="featured-spices">
+                    <!-- <h3 class="section-title">Featured Spices</h3> -->
+                    <div class="spice-grid">
+                        <!-- Spice cards remain unchanged -->
+                        <div class="spice-card">
+                            <img src="image/spices/coriander-seeds.jpg" alt="Saffron" class="spice-img">
+                            <div class="spice-content">
+                                <h3 class="spice-name">coriander</h3>
+                                <div class="spice-origin">
+                                    <i class="fas fa-globe-asia"></i>
+                                    Origin:  India
+                                </div>
+                                <p class="spice-desc">Coriander, also known as Cilantro (for its leaves), is an aromatic herb commonly used in cooking. It belongs to the parsley family and is known for its fresh, citrusy flavor. </p>
+                                <div class="spice-meta">
+                                    <div class="spice-price">₹300</div>
+                                    <!-- <button class="bid-btn">Place Bid</button> -->
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="spice-card">
+                            <img src="image/spices/cardamom.jpg" alt="Vanilla" class="spice-img">
+                            <div class="spice-content">
+                                <h3 class="spice-name">cardamom</h3>
+                                <div class="spice-origin">
+                                    <i class="fas fa-globe-africa"></i>
+                                    Origin: Madagascar
+                                </div>
+                                <p class="spice-desc">Cardamom is a highly aromatic spice known for its sweet, slightly spicy flavor. It comes from the seeds of plants in the ginger family and is commonly used in both sweet and savory dishes. </p>
+                                <div class="spice-meta">
+                                    <div class="spice-price">₹800</div>
+                                    <button class="bid-btn">Place Bid</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="spice-card">
+                            <img src="image/spices/turmeric.jpg" alt="Cardamom" class="spice-img">
+                            <div class="spice-content">
+                                <h3 class="spice-name">Turmeric</h3>
+                                <div class="spice-origin">
+                                    <i class="fas fa-globe-asia"></i>
+                                    Origin: Guatemala
+                                </div>
+                                <p class="spice-desc">Turmeric is a vibrant yellow-orange spice made from the root of the Curcuma longa plant. Widely used in Indian cooking, it has a warm, earthy flavor and is a key ingredient in curries.</p>
+                                <div class="spice-meta">
+                                    <div class="spice-price">₹500</div>
+                                    <button class="bid-btn">Place Bid</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="spice-card">
+                            <img src="image/spices/cinnamon.jpg" alt="Cinnamon" class="spice-img">
+                            <div class="spice-content">
+                                <h3 class="spice-name">Cinnamon</h3>
+                                <div class="spice-origin">
+                                    <i class="fas fa-globe-asia"></i>
+                                    Origin: Sri Lanka
+                                </div>
+                                <p class="spice-desc">Cinnamon is a popular spice made from the inner bark of cinnamon trees. It has a warm, sweet, and slightly spicy flavor, making it a favorite in both sweet and savory dishes.</p>
+                                <div class="spice-meta">
+                                    <div class="spice-price">₹600</div>
+                                    <button class="bid-btn">Place Bid</button>
+                                </div>
+                                
+                                
+                            </div>
+                        </div>
+                        <div class="spice-card">
+                            <img src="image/spices/cloves.jpg" alt="Vanilla" class="spice-img">
+                            <div class="spice-content">
+                                <h3 class="spice-name">cloves</h3>
+                                <div class="spice-origin">
+                                    <i class="fas fa-globe-africa"></i>
+                                    Origin: Madagascar
+                                </div>
+                                <p class="spice-desc">Cloves are the dried flower buds of the clove tree and are known for their strong, warm, and slightly sweet aroma. They are commonly used in cooking, especially in spice blends, biryanis, and teas, as well as in baking.</p>
+                                <div class="spice-meta">
+                                    <div class="spice-price">₹900</div>
+                                    <button class="bid-btn">Place Bid</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="spice-card">
+                            <img src="image/spices/nutmeg.jpg" alt="Vanilla" class="spice-img">
+                            <div class="spice-content">
+                                <h3 class="spice-name">nutmeg</h3>
+                                <div class="spice-origin">
+                                    <i class="fas fa-globe-africa"></i>
+                                    Origin: Madagascar
+                                </div>
+                                <p class="spice-desc">Nutmeg is a fragrant spice made by grinding the seed of the nutmeg tree (Myristica fragrans). It has a warm, sweet, and slightly nutty flavor, making it popular in both sweet dishes like cakes </p>
+                                <div class="spice-meta">
+                                    <div class="spice-price">₹800</div>
+                                    <button class="bid-btn">Place Bid</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+<!-- fob -->
+ <!-- About Section -->
+    <section class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <h4>Spice Up Your Life with Premium Quality Spices from SpiceFluidion</h4>
+                <p>At SpiceFluidion, we offer a wide variety of premium quality spices online from India, known for their rich aroma and flavor. Our carefully sourced and handpicked spices are the perfect addition to any dish, adding a burst of flavor and aroma that will tantalize your taste buds. From everyday spices like cumin and coriander to exotic blends like garam masala and biryani masala, we have it all.</p>
+                
+                <h4>Premium Quality Spices for Every Occasion</h4>
+                <p>Whether you're looking to add some heat to your curries or some sweetness to your desserts, our premium quality spices are a great choice. We offer a wide variety of spices, each with its own unique flavor and aroma, to suit every occasion and every palate. Our spices are sourced from the best farms in India and are carefully processed to ensure maximum freshness and flavor.</p>
+                
+                <h4>Handpicked and Carefully Sourced Spices</h4>
+                <p>At SpiceFluidion, we believe in offering only the best-quality spices to our customers. That's why we handpick and carefully source our spices from the best farms in India. We work closely with our farmers to ensure that our spices are grown using sustainable and organic farming practices, free from any harmful chemicals or additives.</p>
+                
+                <h4>Convenient and Affordable Spice Blends</h4>
+                <p>Our spice blends are conveniently packaged and affordably priced, making it easy for you to enjoy the goodness of premium quality spices without breaking the bank. We offer a variety of spice blends, each expertly crafted to bring out the best in every dish. From our popular biryani masala to our aromatic garam masala, our spice blends are sure to elevate your cooking to the next level.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy;  Ament /Ashish</p>
+    </footer>
+    
+    <script>
+        // Add hover effect to spice cards
+        document.querySelectorAll('.spice-card').forEach(card => {
+            card.addEventListener('mouseenter', () => {
+                card.style.transform = 'translateY(-8px)';
+                card.style.boxShadow = '0 12px 25px rgba(0, 0, 0, 0.15)';
+            });
+            
+            card.addEventListener('mouseleave', () => {
+                card.style.transform = 'translateY(0)';
+                card.style.boxShadow = '0 5px 15px rgba(0, 0, 0, 0.08)';
+            });
+        });
+    </script>
+</body>
+</html>
